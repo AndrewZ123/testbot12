@@ -1,5 +1,6 @@
 const { Client, Collection, RichEmbed } = require("discord.js");
 const { config } = require("dotenv");
+const token = 'MTE5Mzc0NDIyMDIzNDcxMTA2MA.GE_kMQ.tRYBa5eJdMO2LWwJxN4iepILcbpKc0sXBePapk';
 
 const client = new Client({
     disableEveryone: true
@@ -56,4 +57,4 @@ client.on("ready", async () => {
 
     });
 });
-client.login("MTE5Mzc0NDIyMDIzNDcxMTA2MA.GE_kMQ.tRYBa5eJdMO2LWwJxN4iepILcbpKc0sXBePapk")
+client.login(token);
