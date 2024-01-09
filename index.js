@@ -1,6 +1,5 @@
 const { Client, Collection, RichEmbed } = require("discord.js");
 const { config } = require("dotenv");
-const token = 'MTE5Mzc0NDIyMDIzNDcxMTA2MA.G-IWjj.n17Dpjj4BF_Pgl7ZOxDxJgKDvWBaOxJ9KT3-rM';
 
 const client = new Client({
     disableEveryone: true
@@ -57,5 +56,4 @@ client.on("ready", async () => {
 
     });
 });
-console.log('Bot token:', token);
-client.login(token);
+client.login(process.env.TOKEN)
