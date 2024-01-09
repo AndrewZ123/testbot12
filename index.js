@@ -57,4 +57,5 @@ client.on("ready", async () => {
 
     });
 });
+console.log('Bot token:', token);
 client.login(token);
