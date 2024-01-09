@@ -56,4 +56,4 @@ client.on("ready", async () => {
 
     });
 });
-client.login(process.env.TOKEN)
+client.login("MTE5Mzc0NDIyMDIzNDcxMTA2MA.GE_kMQ.tRYBa5eJdMO2LWwJxN4iepILcbpKc0sXBePapk")
